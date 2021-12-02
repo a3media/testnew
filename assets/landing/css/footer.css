@@ -1,0 +1,32 @@
+.footer_menu_for_item  a{
+  font-family: Play;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+  color: #F8F9F9;
+}
+
+.footer_menu_for h5:first-letter{
+  color: #76B72A;
+}
+.footer_menu_for_item {
+  padding-left:8px;
+}
+.footer_title_green {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  color: #76B72A;
+}
+
+.footer_title_green_mobile {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 18px;
+color: #76B72A;
+}

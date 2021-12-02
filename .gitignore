@@ -1,0 +1,14 @@
+# ignore everything in this directory
+/*
+
+# but not these
+!README.md
+!.gitignore
+!php_scripts/
+!core/
+core/*
+!/core/elements/
+!assets/
+assets/*
+!/assets/template/
+!/assets/landing/

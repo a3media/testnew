@@ -1,0 +1,54 @@
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  a.header_phone {
+    font-size: 36px;
+}
+  h3.pochemu_item_title {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 42px;
+  }
+  .avtopark_item_info{
+    font-size: 16px;
+  }
+  h2, .h2 {
+    font-size: 44px;
+    margin-bottom: 1.5rem;
+  }
+  .dogruz_image img,.gruzchiki_image img {
+      max-width: 100%;
+      margin-left:0;
+  }
+}
+
+@media (min-width: 992px) {
+  .main_intro {
+      padding-top: 155px;
+      background: url('/assets/landing/img/back_russia.svg') no-repeat center 100%;
+      background-size: auto;
+  }
+  .accordion h3 {
+    font-size: 22px;
+  }
+  .main_road {
+    margin: 0 -45px;
+    padding: 0 45px;
+      background: url(/assets/landing/img/road.svg) no-repeat center;
+  }
+  .road_right {
+      background: url(/assets/landing/img/road_r.svg) repeat-x center;
+  }
+  .road_left {
+      background: url(/assets/landing/img/road_l.svg) repeat-x center;
+  }
+}
+@media (min-width: 1200px) {
+  .main_road {
+      margin: 0 -45px;
+      padding: 0 45px;
+  }
+}

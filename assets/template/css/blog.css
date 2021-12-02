@@ -1,0 +1,143 @@
+.post_info img,.post_page_info img,.card-header h2 img,.blog_categories li img{.ticket-comment-rating fa-thumbs-up
+  display: none;
+}
+.post_info svg, .post_page_info svg{
+  height: .8rem;
+}
+.card-header h2 svg {
+    height: 1.8rem;
+}
+.folder-categories {
+  width:38px;
+}
+.folder-categories-svg {
+  width:18px;
+  height:16px;
+}
+.comments-list {
+    list-style: none;
+}
+.comment-list {
+    padding: 0;
+    list-style: none;
+}
+img.ticket-avatar {
+    width: 2rem;
+}
+.ticket-rating span {
+  width: 1rem;
+  display: inline-block;
+}
+.comment-reply svg {
+  width: .75rem;
+}
+.ticket-comment-rating .fa-thumbs-up, .ticket-comment-rating .fa-thumbs-down {
+  width: 1rem;
+}
+.edit .fa-pencil-alt {
+  width: 1rem;
+}
+.ticket-meta .fa-folder-open,.ticket-meta .fa-eye {
+  width: 1rem;
+}
+.tickets-latest-row svg{
+  width: 1rem;
+}
+.post_page_social .ya-share2__container_size_m .ya-share2__icon {
+    height: 30px;
+    width: 30px;
+        background-size: 30px 30px;
+}
+.tickets-latest-row .user img{
+  width: 2.2rem;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.tickets-latest-row nobr{
+ float:right;
+}
+
+a.ha-icon {
+    width: 48px;
+    display: inline-block;
+    height: 48px;
+    margin: 0 2px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+a.ha-icon.facebook {
+    background-image: url(/assets/images/social/fb.svg);
+}
+a.ha-icon.google {
+    background-image: url(/assets/images/social/google.svg);
+}
+a.ha-icon.yandex {
+    background-image: url(/assets/images/social/ya.svg);
+}
+a.ha-icon.vkontakte {
+    background-image: url(/assets/images/social/vk.svg);
+}
+a.ha-icon.active {
+    filter: grayscale(100%);
+    opacity: .5;
+}
+.ticket-meta {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+.comments label.active {
+  transform: none;
+}
+.btn .badge {
+    position: relative;
+    top: -1px;
+}
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+.inactive span.vote {
+    opacity: 0.4;
+}
+span.vote.plus.voted, .active span.vote {
+    color: #76b72a;
+}
+span.vote.plus.voted {
+    color: #76b72a;
+}
+span.vote.minus.voted {
+    color: #ff0000;
+}
+textarea:focus {
+  box-shadow: 0px 0px 8px rgba(118,183,42,.8);
+  border: 2px solid #76b72a;
+  outline: none;
+}
+
+.folder-categories path{
+  fill: white;
+}
+
+.avatar .rounded-circle {
+  width: 40px;
+}
+
+.user svg {
+  width: 40px;
+}
+.comments_svg {
+  width:38px;
+}

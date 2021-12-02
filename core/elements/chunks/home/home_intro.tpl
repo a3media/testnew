@@ -1,0 +1,27 @@
+<div class="intro_wrapper mb-4">
+    <div class="container p-relative">
+      <div class="intro_back"></div>
+      <div class="row justify-content-between align-items-center">
+          <div class="col-md-6 py-3 my-2 order-2 order-md-1">
+            <h1 class="h2">{'pdoField' | snippet : ['id' => $_modx->resource.id, 'field' => 'longtitle', 'default' => 'pagetitle' ]}</h1>
+            <div class="home_intro_content">
+              {$_modx->resource.content}
+            </div>
+            <div class="home_intro_buttons text-right">
+              <a href="{$_modx->makeUrl($_modx->config.pr_page_aboutus)}" class="btn btn-outline-secondary mr-3">О компании</a>
+              <a href="{590 | url}" class="btn btn-outline-primary">Стоимость</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 order-1 order-md-2">
+            {$_modx->runSnippet('!AjaxForm', [
+              'form' => '@FILE  chunks/feedback/feedback.tpl',
+              'snippet' => 'FormIt',
+              'hooks' => 'FormItSaveForm,megaplan_v2_newtest',
+              'validate' => 'phone:phone:required,agreecont:required',
+              'validationErrorMessage' => 'В форме содержатся ошибки!',
+              'frontend_css'=>''
+            ])}
+          </div>
+      </div>
+    </div>
+</div>
